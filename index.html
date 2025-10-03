@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Всем привет!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> 
+        <div class="header__container">
+            <nav class="header__nav">
+                <img src="img/logo.svg" alt="logo">
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a class="header__list-link active" href="/">Home</a>
+                    </li>
+                    <li>
+                        <a class="header__list-link" href="/">Features</a>
+                    </li>
+                    <li>
+                        <a class="header__list-link" href="/">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="header__list-link" href="/">Blog</a>
+                    </li>
+                </ul>
+                <a class="header__button" href="/">Get Started</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                            Grow your subscription business
+                        </h1>
+                        <p class="hero__description">
+                            Outcome-centered products that reduce churn optimize pricing, and grow your subscription business end-to-end.
+                        </p>
+                    </div>
+                    <div class="hero__buttons">
+                        <a href="/" class="hero__button">Get Started</a>
+                        <a href="#companies">
+                            <img class="hero__scroll" src="img/arrowRound.svg" alt="arrow icon" >
+                        </a>
+                    </div>
+                </div>
+                <img class="hero__image" src="img/heroimg.png" alt="man image">
+            </div>
+        </section>
+        <section class="companies" id="companies">
+            <div class="companies__container">
+                <ul class="companies__list">
+                    <li class="companies__company">
+                        <img src="img/logos/1.svg" alt="logo1" class="companies__company--logo">
+                    </li>
+                    <li class="companies__company">
+                        <img src="img/logos/2.svg" alt="logo2" class="companies__company--logo">
+                    </li>
+                    <li class="companies__company">
+                        <img src="img/logos/3.svg" alt="logo3" class="companies__company--logo">
+                    </li>
+                    <li class="companies__company">
+                        <img src="img/logos/4.svg" alt="logo4" class="companies__company--logo">
+                    </li>
+                    <li class="companies__company">
+                        <img src="img/logos/5.svg" alt="logo5" class="companies__company--logo">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="features">
+            <div class="features__container">
+                <div class="feature">
+                    <img class="feature__image" src="img/subimg.png" alt="logo">
+                    <div class="feature__content">
+                        <h3 class="feature__title">
+                            Subscription index
+                        </h3>
+                        <p class="feature__desc">
+                            A daily dataset to keep you up to date on subscription market trends and what's happening in
+                            your vertical.
+                        </p>
+                        <a class="feature__link" href="/">Learn more</a>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature__content">
+                        <h3 class="feature__title">
+                            In-depth metrics
+                        </h3>
+                        <p class="feature__desc">
+                            Accurate, real-time reporting at your fingertips. Getting data has never been easier.
+                        </p>
+                        <a class="feature__link" href="/">Learn more</a>
+                    </div>
+                    <img class="feature__image" src="img/metricmanimg.png" alt="logo">
+                </div>
+            </div>
+        </section>
+        <section class="mini-features">
+            <div class="mini-features__container">
+                 <div class="mini-feature">
+                    <header class="mini-feature__header">
+                        <img class="mini-feature__image" src="img/logos/bankcard.png" alt="bankcard img">
+                        <h4 class="mini-feature__title">Benchmarks</h4>
+                    </header>
+                    <p class="mini-feature__description">
+                        See how you stack up against comparable 
+                        companies in similar stages.
+                    </p>
+                 </div>
+                 <div class="mini-feature">
+                    <header class="mini-feature__header">
+                        <img class="mini-feature__image" src="img/logos/calculator.png" alt="bankcard img">
+                        <h4 class="mini-feature__title">Pricing Audit</h4>
+                    </header>
+                    <p class="mini-feature__description">
+                        Benchmark the health of your
+                        monetization and pricing strategy.
+                    </p>
+                 </div>
+                 <div class="mini-feature">
+                    <header class="mini-feature__header">
+                        <img class="mini-feature__image" src="img/logos/camera.png" alt="bankcard img">
+                        <h4 class="mini-feature__title">Retention Audit</h4>
+                    </header>
+                    <p class="mini-feature__description">
+                        Audit where revenue leakage exists 
+                        and where you can increase retention.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="subscription">
+            <div class="subscription__container">
+                <header class="subscription__header">
+                    <h2 class="subscription__title">
+                        Get the right plan for future product.
+                    </h2>
+                    <div class="subscription__tabs">
+                        <button class="subscription__tab active">
+                            Yearly
+                        </button>
+                        <button class="subscription__tab">
+                            Monthly
+                        </button>
+                    </div>
+                </header>
+                    <div class="subscription__plans">
+                        <div class="subscription__plan">
+                            <p class="subscription__plan-title">
+                                Starter
+                            </p>
+                            <h2 class="subscription__plan-price">
+                                Free
+                            </h2>
+                            <p class="subscription__plan-features">
+                                1 Website <br>
+                                5 GB Hosting <br>
+                                Limited Support <br>
+                            </p>
+                            <button class="subscription__plan-button">
+                                Get Started
+                            </button>
+                        </div>
+                        <div class="subscription__plan active">
+                            <p class="subscription__plan-title">
+                                Premium
+                            </p>
+                            <h2 class="subscription__plan-price">
+                                $29<span>/month</span>
+                            </h2>
+                            <p class="subscription__plan-features">
+                                10 Website <br>
+                                15 GB Hosting <br>
+                               Premium Support <br>
+                            </p>
+                            <button class="subscription__plan-button">
+                                Get Started
+                            </button>
+                        </div>
+                        <div class="subscription__plan">
+                            <p class="subscription__plan-title">
+                                Enterprise
+                            </p>
+                            <h2 class="subscription__plan-price">
+                                $49<span>/month</span>
+                            </h2>
+                            <p class="subscription__plan-features">
+                                Unlimited Website <br>
+                                50 GB Hosting <br>
+                                Premium Support <br>
+                            </p>
+                            <button class="subscription__plan-button">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+    
+</body> 
+</html>
